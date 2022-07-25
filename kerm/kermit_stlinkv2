@@ -1,0 +1,11 @@
+#!/usr/bin/kermit +
+
+# Nucleo F722
+set line /dev/stlinkv2_console
+
+# Nucleo L152
+#set line /dev/stlink_console
+
+set speed 115200
+set carrier-watch off
+set terminal lf-display crlf

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -e "/dev/stlink_console" ]; then
+#  ./kermit_stlink
+picocom -b 115200 --imap lfcrlf /dev/stlink_console  
+elif [ -e "/dev/stlinkv2_console" ]; then
+picocom -b 115200 --imap lfcrlf /dev/stlinkv2_console 
+elif [ -e "/dev/ttyACM0" ]; then
+  ./kermit_acm0
+else
+  echo "No STLINK console found"
+fi

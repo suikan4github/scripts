@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# configure git
+echo "configure git variables user.name and user.email"
+
+git config --local user.email 26223147+suikan4github@users.noreply.github.com
+git config --local user.name Suikan
+git config --local push.default simple
+
