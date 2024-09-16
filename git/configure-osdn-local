@@ -3,7 +3,7 @@
 # configure git
 echo "configure git variables user.name and user.email"
 
-git config --local user.name takemasa
+git config --local user.name Seiichi Horie
 git config --local user.email suikan@users.osdn.me
 git config --local push.default simple
 
