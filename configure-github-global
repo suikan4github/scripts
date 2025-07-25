@@ -4,5 +4,5 @@
 echo "configure git variables user.name and user.email"
 
 git config --global user.email 26223147+suikan4github@users.noreply.github.com
-git config --global user.name Seiichi Horie
+git config --global user.name HORIE Seiichi
 git config --global push.default simple
